@@ -207,11 +207,14 @@ margin-top: -22.4px;
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 47%;
-    height: 100%;
+    height: 2000px;
     position: relative;
-    margin-top: -180px;
-    padding-bottom: 100%; 
+    margin-top: -250px;
   }
+
+#search_text {
+  margin-bottom: 75px;
+}
   
  h1 {
 font-family: Arial;
@@ -223,7 +226,7 @@ text-align: justify;
 }
   
   .icon-top {
-  margin-left: 68%;
+  margin-left: 80%;
   margin-bottom: -40px;
   margin-top: 25px;
   font-size: 20px;
@@ -241,7 +244,7 @@ text-align: justify;
   position: static;
   margin-left: 65%;
   padding-top: 80px;
-  margin-top: -650px;
+  margin-top: -2270px;
 }
   
 .table2 {
