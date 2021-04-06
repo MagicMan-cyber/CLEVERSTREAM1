@@ -53,7 +53,7 @@ p {
 }
 
 .icon-top {
-  margin-left: 15%; /* icon in the top corner next to profile pricture in far left corner */
+  margin-left: 13.5%; /* icon in the top corner next to profile pricture in far left corner */
   margin-bottom: -40px;
   margin-top: 25px;
   font-size: 20px;
@@ -206,10 +206,11 @@ margin-top: -22.4px;
 
 @media screen and (max-width: 700px) {
   .sidebar {
-    width: 57.9%;
+    width: 47%;
     height: 100%;
     position: relative;
     margin-top: -180px;
+    padding-bottom: 100%; 
   }
   
  h1 {
@@ -222,7 +223,7 @@ text-align: justify;
 }
   
   .icon-top {
-  margin-left: 85%;
+  margin-left: 68%;
   margin-bottom: -40px;
   margin-top: 25px;
   font-size: 20px;
@@ -238,9 +239,9 @@ text-align: justify;
   border-collapse: collapse;
   width: 12.5%
   position: static;
-  margin-left: 88%;
+  margin-left: 65%;
   padding-top: 80px;
-  margin-top: -545px;
+  margin-top: -650px;
 }
   
 .table2 {
