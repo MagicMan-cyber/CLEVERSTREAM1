@@ -1,0 +1,281 @@
+#search {
+  margin-left: 0px;
+}
+
+#search_text {
+  margin-left: 325px;
+}
+
+#search_para
+{
+ color:black;
+ font-family: Arial;
+ line-height: 1.8;
+}
+
+#search_para2
+{
+ color:black;
+ font-family: Arial;
+}
+
+.highlight
+{
+ color:green;
+ text-decoration:underline;
+}
+
+h1 {
+font-family: Arial;
+font-weight: bold;
+margin-left: 325px;
+padding-top: -60px;
+padding-bottom: 140px;
+}
+
+h3 {
+font-weight: bold;
+margin-left: 330px;
+margin-top: -152px;
+}
+
+p {
+  font-family: Arial; /* paragraph text is only used in the table becuase thats the only thing the search function looks for */
+}
+
+.footer {
+   position: static; /* grey footer at top next to to profile picture in the corner */
+   background-color: rgb(220, 220, 220);
+   height: 50px;
+   margin-left: 200px; 
+   margin-top: 130px;
+   border-style: outlet;
+}
+
+.icon-top {
+  margin-left: 15%; /* icon in the top corner next to profile pricture in far left corner */
+  margin-bottom: -40px;
+  margin-top: 25px;
+  font-size: 20px;
+  color: gray
+}
+
+.search { /* search fucntion for keyword search */
+  margin-left: 328px;
+  margin-top: -20px;
+}
+
+.button1 { /* test camp */
+  background-color: rgb(220, 220, 220);
+  border: none;
+  font-fmaily: Arial;
+  color: black;
+  padding: 7.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 120px;
+  margin-left: 40px;
+  cursor: pointer;
+  width: 8.5%;
+  border-radius: 40%;
+}
+
+.image-profile-side { /* profile picture in far left corner  */
+content:url(https://feedback.seekingalpha.com/s/cache/82/5b/825bfd685db1c4ec970a5d27bb990718.png);
+margin-bottom: -290px;
+height: 235px;
+width: 280px;
+max-width: 100%
+}
+
+body {
+  background-color: rgb(245,245,245)
+}
+
+.side-footer { /* white footer underneath the sidebar which has the navigation areas */
+   position: static;
+   left: 0;
+   height: 100%;
+   width: 14.1%;
+   background-color: white;
+   border-style: outlet;
+   z-index: 1;
+   text-align: center;
+}
+
+h2 {
+  margin-top: -2230px;
+  margin-left: 395px;
+}
+
+.sidebar { /* contains all the navigation areas */
+  margin: 0;
+  padding: 100;
+  position: absolute;
+  height: 100%;
+  width: 8.5%;
+  margin-top: -75px;
+  overflow: auto;
+  padding-right: 65px;
+  border-color: white;
+  padding-bottom: 100%;
+  background-color: white;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  width: 100%;
+  border-bottom: inset;
+  padding: 15px;
+  padding-left: 26px;
+  text-decoration: none;
+  font-fmaily: Arial;
+  font-weight: none ;
+}
+ 
+div.content {
+  margin-left: 200px;
+  height: 1000px;
+}
+
+.table1 { /* table contains info for applicant 1 */
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 12.5%;
+  margin-left: 12.7%;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+.table2 { /* table which contains info for applicant two */
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 12.5%;
+  margin-left: 120%;
+  margin-top: -567.5px;
+}
+
+.button2 { /* interview button 1 */
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 75%;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 { /* interview button 2 */
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 75%;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+th { /* table which contains profile picture */
+  border: 1px solid #dddddd;          content:url(https://feedback.seekingalpha.com/s/cache/82/5b/825bfd685db1c4ec970a5d27bb990718.png);
+  padding: 15px;
+}
+
+tr {
+text-align: center;
+}
+
+tr,th:nth-child(even) {
+  background-color: white;
+}
+
+.refresh-search { 
+margin-left: 570px;
+margin-top: -22.4px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 57.9%;
+    height: 100%;
+    position: relative;
+    margin-top: -180px;
+  }
+  
+ h1 {
+font-family: Arial;
+font-weight: bold;
+margin-left: 325px;
+padding-top: -10px;
+padding-bottom: 150px;
+text-align: justify;
+}
+  
+  .icon-top {
+  margin-left: 85%;
+  margin-bottom: -40px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+  .button1 {
+    width: 50%;
+    min-width: 50%;
+  }
+ 
+  .table1 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 12.5%
+  position: static;
+  margin-left: 88%;
+  padding-top: 80px;
+  margin-top: -545px;
+}
+  
+.table2 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 12%
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: -1%;
+  padding-left: -250px;
+}
+
+.footer {
+   position: static;
+   background-color: rgb(220, 220, 220);
+   height: 50px;
+   margin-left: 200px; 
+   margin-top: 130px;
+   border-style: outlet;
+   width: 1000%;
+}
+
+  .side-footer {
+    width: 25%;
+    colour
+    height: auto;
+    position: relative;
+  }
+  
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+  }
+}
+
+
+
