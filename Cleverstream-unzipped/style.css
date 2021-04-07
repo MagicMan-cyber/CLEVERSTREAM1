@@ -53,7 +53,7 @@ p {
 }
 
 .icon-top {
-  margin-left: 13.5%; /* icon in the top corner next to profile pricture in far left corner */
+  margin-left: 13%; /* icon in the top corner next to profile pricture in far left corner */
   margin-bottom: -40px;
   margin-top: 25px;
   font-size: 20px;
@@ -76,7 +76,7 @@ p {
   display: inline-block;
   font-size: 16px;
   margin-top: 120px;
-  margin-left: 35px;
+  margin-left: 55px;
   cursor: pointer;
   width: 8.5%;
   border-radius: 40%;
@@ -154,11 +154,11 @@ div.content {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 12.5%;
-  margin-left: 120%;
-  margin-top: -567.5px;
+  margin-left: 157%;
+  margin-top: -630.5px;
 }
 
-.button2 { /* interview button 1 */
+.button3 { /* interview button */
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -166,21 +166,7 @@ div.content {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 75%;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button3 { /* interview button 2 */
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width: 75%;
+  width: 95%;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -206,34 +192,35 @@ margin-top: -22.4px;
 
 @media screen and (max-width: 700px) {
   .sidebar {
-    width: 45%;
-    height: 2000px;
+    width: 43.9%;
+    height: 100%;
     position: relative;
-    margin-top: -63%;
+    margin-top: -44%;
   }
 
 #search_text {
-  margin-bottom: 75px;
+  margin-left: 320px;
 }
+
   
  h1 {
 font-family: Arial;
 font-weight: bold;
-margin-left: 325px;
+margin-left: 89.5%;
 padding-top: -10px;
 padding-bottom: 150px;
-text-align: justify;
+text-align: center;
 }
   
   .icon-top {
-  margin-left: 80%;
+  margin-left: 85%;
   margin-bottom: -40px;
   margin-top: 25px;
   font-size: 20px;
 }
 
   .button1 {
-    width: 50%;
+    width: 45%;
     min-width: 45%;
   }
  
@@ -242,9 +229,9 @@ text-align: justify;
   border-collapse: collapse;
   width: 12.5%
   position: static;
-  margin-left: 65%;
+  margin-left: 70%;
   padding-top: 80px;
-  margin-top: -2270px;
+  margin-top: -545px;
 }
   
 .table2 {
@@ -256,6 +243,15 @@ text-align: justify;
   margin-left: -1%;
   padding-left: -250px;
 }
+
+.image-profile-side { /* profile picture in far left corner  */
+content:url(https://feedback.seekingalpha.com/s/cache/82/5b/825bfd685db1c4ec970a5d27bb990718.png);
+margin-bottom: -290px;
+height: 235px;
+width: 280px;
+max-width: 75%
+}
+
 
 .footer {
    position: static;
