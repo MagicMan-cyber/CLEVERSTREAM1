@@ -1,36 +1,17 @@
-#search {
-  margin-left: 0px;
-}
-
-#search_text {
-  margin-left: 325px;
-}
-
-#search_para
-{
- color:black;
- font-family: Arial;
- line-height: 1.8;
-}
-
-#search_para2
-{
- color:black;
- font-family: Arial;
-}
-
-.highlight
-{
- color:green;
- text-decoration:underline;
-}
-
 h1 {
 font-family: Arial;
 font-weight: bold;
 margin-left: 325px;
 padding-top: -60px;
 padding-bottom: 140px;
+}
+
+form {
+  margin-left: 330px;
+}
+
+p {
+   line-height: 2.5;
 }
 
 h3 {
@@ -116,7 +97,7 @@ h2 {
   position: absolute;
   height: 100%;
   width: 8.5%;
-  margin-top: -75px;
+  margin-top: -110px;
   overflow: auto;
   padding-right: 65px;
   border-color: white;
@@ -155,7 +136,7 @@ div.content {
   border-collapse: collapse;
   width: 12.5%;
   margin-left: 157%;
-  margin-top: -630.5px;
+  margin-top: -703.5px;
 }
 
 .button3 { /* interview button */
@@ -185,17 +166,13 @@ tr,th:nth-child(even) {
   background-color: white;
 }
 
-.refresh-search { 
-margin-left: 570px;
-margin-top: -22.4px;
-}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .sidebar {
     width: 43.9%;
     height: 100%;
     position: relative;
-    margin-top: -38%;
+    margin-top: -79%;
   }
 
 #search_text {
@@ -210,7 +187,14 @@ margin-left: 71%;
 padding-top: -10px;
 padding-bottom: 150px;
 text-align: justify;
+margin-bottom: 4%; 
 }
+
+form {
+  margin-left: 73%;
+  margin-bottom: 35%; 
+}
+
   
   .icon-top {
   margin-left: 80%;
