@@ -1,35 +1,7 @@
-document.addEventListener( 'DOMContentLoaded',function(){
- var searchpara=document.getElementById("search_para").innerHTML;
- searchpara=searchpara.toString();
- document.getElementById("search").onclick =function ()
- {highlight_word(searchpara)};	
-},false);
-
-function highlight_word(searchpara)
-{
- var text=document.getElementById("search_text").value;
- if(text)
- {
-  var pattern=new RegExp("("+text+")", "gi");
-  var new_text=searchpara.replace(pattern, "<span class='highlight'>"+text+"</span>");
-  document.getElementById("search_para").innerHTML=new_text;
- }
-}
-
-document.addEventListener( 'DOMContentLoaded',function(){
- var searchpara=document.getElementById("search_para").innerHTML;
- searchpara=searchpara.toString();
- document.getElementById("search").onclick =function ()
- {highlight_word(searchpara)};	
-},false);
-
-function highlight_word(searchpara)
-{
- var text=document.getElementById("search_text").value;
- if(text)
- {
-  var pattern=new RegExp("("+text+")", "gi");
-  var new_text=searchpara.replace(pattern, "<span class='highlight'>"+text+"</span>");
-  document.getElementById("search_para").innerHTML=new_text;
- }
-}
+window.addEventListener("DOMContentLoaded", function(e) {
+    var highlight = new Hilitor("text");
+    highlight.setMatchType("left");
+    document.getElementById("keywords").addEventListener("keyup", function(e) {
+      highlight.apply(this.value);
+    }, false);
+  }, false);
